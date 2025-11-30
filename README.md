@@ -75,7 +75,7 @@ For each model, the following were computed:
   - PR-AUC
 These metrics are more meaningful than accuracy for imbalanced datasets.
 
-##🔧 Tech Stack
+## 🔧 Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-Learn
@@ -84,19 +84,19 @@ These metrics are more meaningful than accuracy for imbalanced datasets.
 - Matplotlib, Seaborn
 - Google Colab
 
-##📊 Key Insights
+## 📊 Key Insights
 - Fraud transactions typically involve lower amounts
 - Time is not a strong indicator of fraud
 - PCA components contain hidden fraud patterns
 - Imbalance handling (SMOTE) significantly improves performance
 
-##🚀 Future Enhancements
+## 🚀 Future Enhancements
 - Deploy model using Flask / FastAPI
 - Implement real-time fraud detection API
 - Add model monitoring for data drift
 - Try LightGBM & CatBoost
 
-##🙌 Author
-Sandeep Kumar Mahto
-M.Tech Data Science Student
-Passionate about ML, Deep Learning, and Real-world AI applications
+## 🙌 Author
+- Sandeep Kumar Mahto
+- M.Tech Data Science Student
+- Passionate about ML, Deep Learning, and Real-world AI applications
