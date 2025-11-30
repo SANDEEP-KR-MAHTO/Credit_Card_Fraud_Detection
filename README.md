@@ -1,20 +1,28 @@
-📌 Credit Card Fraud Detection (Machine Learning Project)
+# 📌 Credit Card Fraud Detection (Machine Learning Project)
 
 This project builds a machine learning system to detect fraudulent credit card transactions using the popular Kaggle Credit Card Fraud Dataset.
 The data is highly imbalanced, and the goal is to create a model that maximizes fraud recall while keeping false alarms controlled.
 
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 Credit card fraud is a major challenge for banks and financial institutions.
 Even a small number of fraudulent transactions leads to large financial losses.
-
 This project aims to:
+- Detect fraudulent transactions (Class 1)
+- Minimize financial loss
+- Reduce false alerts to maintain customer experience
+- Build a complete ML pipeline from EDA → Modeling → Evaluation → Threshold Tuning → Deployment
 
-Detect fraudulent transactions (Class 1)
 
-Minimize financial loss
+## 📂 Dataset
+Source: Kaggle Credit Card Fraud Dataset
+- Total samples: 284,807
+- Features: 30 PCA-transformed numerical features + Time + Amount
+- Target:
+   - 0 → Legitimate transaction
+   - 1 → Fraudulent transaction
 
-Reduce false alerts to maintain customer experience
-
-Build a complete ML pipeline from EDA → Modeling → Evaluation → Threshold Tuning → Deployment
+The dataset is highly imbalanced:
+- Fraud cases ≈ 0.17%
+- Legitimate ≈ 99.83%
